@@ -1,0 +1,11 @@
+# Library yang dibutuhkan (install: pip install -r requirements.txt)
+nicegui>=3.0.0   # pembuat tampilan web
+pandas           # olah tabel data
+numpy            # hitung angka
+scipy            # Box-Cox, uji KS
+statsmodels      # ARIMA, ADF, ACF/PACF, Ljung-Box, ARCH-LM
+scikit-learn     # RMSE, MAE, MAPE
+lightgbm         # model LightGBM
+optuna           # optimasi hyperparameter
+matplotlib       # grafik di halaman Analisis
+openpyxl         # baca file .xlsx

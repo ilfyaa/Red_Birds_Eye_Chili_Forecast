@@ -1,0 +1,12 @@
+/* Tampilan dasar semua halaman (ditempel oleh app.py) */
+
+/* Reset jarak bawaan browser */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { margin:0 !important; padding:0 !important; }
+
+/* Huruf, warna latar, warna teks */
+body { font-family:'Inter','Segoe UI',sans-serif; background:#eef3e7; color:#1f2937; }
+
+/* Hapus jarak bawaan NiceGUI/Quasar supaya sidebar menempel ke tepi */
+.nicegui-content { padding:0 !important; gap:0 !important; }
+.q-page { padding:0 !important; }
